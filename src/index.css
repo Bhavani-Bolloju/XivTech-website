@@ -1,0 +1,35 @@
+:root {
+  --font-family-1: serif;
+  --font-family-2: sans-serif;
+
+  --color-primary-1: #212529;
+  --color-primary-2: #000;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 60%;
+  }
+  @media screen and (max-width: 950px) {
+    font-size: 58%;
+  }
+  @media screen and (max-width: 650px) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: serif;
+  font-size: 1.6rem;
+  color: var(--color-primary-1);
+}
